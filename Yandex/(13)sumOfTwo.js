@@ -1,11 +1,11 @@
-// function sumOfTwo(arr, num) {
+/*
 
-// }
+    Задача 13: «Сумма двух»
+    Напишите функцию sumOfTwo(arr, num). Её аргументы: массив целых чисел arr и целое число num. 
+    Функция должна вернуть true, если в переданном массиве есть какие-то два числа, чья сумма равна num. 
+    Если же такой пары чисел нет, функция должна вернуть false.
 
-// sumOfTwo([1, 2, 3, 4, 5], 4); // true (так как 1 + 3 === 4)
-// sumOfTwo([1, 2, 3, 4, 5], 100); // false
-
-
+*/
 
 function sumOfTwo(arr, num) {
     let arrRes = [];
@@ -25,10 +25,9 @@ function sumOfTwo(arr, num) {
     for (i = 0; i < arrRes.length; i++) {
         if (arrRes[i] == num) {
             res = true;
-        } 
+        }
     }
-
-    console.log(res);
+    return res;
 }
 
 sumOfTwo([1, 2, 3], 5); // true (так как 1 + 3 === 4)

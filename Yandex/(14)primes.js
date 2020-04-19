@@ -1,3 +1,10 @@
+/*
+
+Задача 14: «Простые числа»
+Напишите функцию primes(n). Её единственный аргумент — целое число n. Функция должна возвращать массив простых чисел от 2 до n.
+
+*/
+
 function isPrime(num) {
     for (let i = 2; i < num; i++) {
         if (num % i === 0) {
@@ -16,7 +23,7 @@ function checkAllNumbers(max) {
             res.push(i);
         }
     }
-    console.log(res);
+    return res;
 }
 
 checkAllNumbers(10);

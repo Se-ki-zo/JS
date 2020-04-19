@@ -1,25 +1,31 @@
+/*
+
+    Задача 6: «Уникальные числа»
+    Напишите функцию uniq(arr), принимающую на вход массив целых чисел. Функция должна возвращать массив уникальных чисел, которые содержатся в переданном массиве. 
+    То есть, дубликаты должны быть удалены.
+
+*/
+
 function uniq(arr) {
-  // let a = [1,2,2,3,4,5,5,5,5,5];
-  let res = [];
+    let res = [];
 
-  for (let i = 0; i < arr.length; i++) {
-      const a = arr[i];
+    for (let i = 0; i < arr.length; i++) {
+        const a = arr[i];
 
-      let exist = 1;
+        let exist = 1;
 
-      for (let n = 0; n < res.length; n++) {
-          if (a == res[n]) {
-              exist = 0;
-              console.log(res[n]);
-              break;
-          }
-      }
+        for (let n = 0; n < res.length; n++) {
+            if (a == res[n]) {
+                exist = 0;
+                break;
+            }
+        }
 
-      if (exist == 1) {
-          res.push(a);
-      }
-  }
-  console.log(res)
+        if (exist == 1) {
+            res.push(a);
+        }
+    }
+    return res;
 }
 
 

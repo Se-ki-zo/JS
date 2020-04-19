@@ -1,3 +1,11 @@
+/*
+
+    Задача 12: «Посчитать количество нулей»
+    Напишите функцию countZeros(n), принимающую на вход натуральное число n. Возвращать функция должна суммарное количество нулей, 
+    содержащихся во всех числах от 1 до n включительно.
+
+*/
+
 function countZeros(num) {
     let arrNum = [];
     let arrZero = [];
@@ -5,7 +13,7 @@ function countZeros(num) {
 
     for (let i = 0; i < num; i++) {
         arrNum.push(i + 1);
-        console.log(arrNum);
+
         if (arrNum[i] % 10 == 0) {
             arrZero.push(arrNum[i]);
         }

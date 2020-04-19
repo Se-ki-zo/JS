@@ -1,3 +1,11 @@
+/*
+
+    Задача 10: «Факториал»
+    Напишите функцию factorial(n), возвращающую факториал неотрицательного целого числа. 
+    Факториал — это произведение всех натуральных чисел от 1 до n включительно. Факториал 0 равен 1.
+
+*/
+
 function factorial(n) {
     a = [];
     let b = 0;
@@ -5,18 +13,17 @@ function factorial(n) {
     if (n == 0 || n == 1) {
         return 1;
     }
+
     for (i = 0; i < n; i++) {
         a.push(i + 1);
     }
 
-    console.log(a);
     for (i = 1; i < a.length; i++) {
         b = a[i] * a[i - 1];
         console.log(b);
         a[i] = b;
-        console.log(a[i]);
     }
-    console.log(b);
+    return b;
 }
 
 factorial(6);
