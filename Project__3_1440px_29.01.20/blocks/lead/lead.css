@@ -1,0 +1,17 @@
+@import url(../../blocks/lead/__caption/lead__caption.css);
+@import url(../../blocks/lead/__image/lead__image.css);
+@import url(../../blocks/lead/__subtitle/lead__subtitle.css);
+
+.lead {
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 984px;
+}
+
+
+@media screen and (min-width: 320px) {
+    .lead {
+        width: 100%;
+        margin-top: 48px;
+    }
+}

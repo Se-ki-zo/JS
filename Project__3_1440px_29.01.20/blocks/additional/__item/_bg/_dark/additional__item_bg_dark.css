@@ -1,0 +1,26 @@
+.additional__item-bg_dark {
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.5) inset;
+}
+
+/* .additional__item-bg_dark:hover {
+    
+} */
+
+.additional__item-bg_dark:nth-child(1) {
+    background-image: url(../../../../../images/nvrssk.jpg);
+}
+
+.additional__item-bg_dark:nth-child(2) {
+    background-image: url(../../../../../images/shickan.jpg);
+}
+
+.additional__item-bg_dark:nth-child(3) {
+    background-image: url(../../../../../images/cherepovets.jpg);
+}
+
+.additional__item-bg_dark:nth-child(4) {
+    background-image: url(../../../../../images/nikola.jpg);
+}

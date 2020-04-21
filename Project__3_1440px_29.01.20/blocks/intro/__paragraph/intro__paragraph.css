@@ -1,0 +1,10 @@
+@import url(../../../blocks/intro/__paragraph/_right/intro__paragraph_right.css);
+
+.intro__paragraph {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0px;
+}

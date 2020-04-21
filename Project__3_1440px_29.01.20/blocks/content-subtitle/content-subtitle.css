@@ -1,0 +1,13 @@
+@import url(../../blocks/content-subtitle/_video/content-subtitle_video.css);
+@import url(../../blocks/content-subtitle/_additional/content-subtitle_additional.css);
+@import url(../../blocks/content-subtitle/_comments/content-subtitle_comments.css);
+
+.content-subtitle {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 24px;
+    line-height: 35px; */
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -1,0 +1,54 @@
+@import url(../../blocks/footer/__coopyright/footer__coopyright.css);
+@import url(../../blocks/footer/__link/footer__link.css);
+@import url(../../blocks/footer/__left/footer__left.css);
+
+
+.footer {
+    margin-top: 160px;
+    margin-bottom: 48px;
+    display: flex;
+    width: 1183px;
+    margin: 0 auto;
+    margin-top: 160px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .footer {
+        margin: 0 auto;
+        margin-top: 64px;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .footer {
+        margin: 0 auto;
+        margin-top: 64px;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 102px;
+        justify-content: space-between;
+        height: 28px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .footer {
+        width: 95%;
+    }
+}

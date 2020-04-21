@@ -1,0 +1,30 @@
+.comment__image {
+    /* height: 95px; */
+    width: 95px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .comment__image {
+        width: 96px;
+        margin: 0 auto;
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .comment__image {
+        width: 96px;
+        margin: 0 auto;
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .comment__image {
+        width: 96px;
+        margin: 0 auto;
+        order: 1;
+    }
+}

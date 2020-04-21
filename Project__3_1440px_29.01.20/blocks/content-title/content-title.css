@@ -1,0 +1,9 @@
+@import url(../../blocks/content-title/_video/content-title_video.css);
+@import url(../../blocks/content-title/_additional/content-title_additional.css);
+@import url(../../blocks/content-title/_comments/content-title_comments.css);
+@import url(../../blocks/content-title/_lead/content-title_lead.css);
+
+.content-title {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0 auto;
+}

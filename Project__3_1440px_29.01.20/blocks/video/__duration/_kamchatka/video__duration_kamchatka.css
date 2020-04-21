@@ -1,0 +1,11 @@
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .video__duration_kamchatka {
+        margin-top: 49px !important;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .video__duration_kamchatka {
+        margin-top: 49px !important;
+    }
+}

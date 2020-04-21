@@ -1,0 +1,18 @@
+@import url(../../blocks/emblem/__city/emblem__city.css);
+@import url(../../blocks/emblem/__image/emblem__image.css);
+@import url(../../blocks/emblem/__item/emblem__item.css);
+@import url(../../blocks/emblem/__title/emblem__title.css);
+@import url(../../blocks/emblem/__container/emblem__container.css);
+
+.emblem {
+    margin: 0 auto;
+    margin-top: 82px;
+    width: 1184px;
+    /* height: 523px; */
+}
+
+@media screen and (min-width: 320px) {
+    .emblem {
+        display: none;
+    }
+}

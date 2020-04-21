@@ -1,0 +1,49 @@
+.cover-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-radius: 5px;
+    background-image: url(../../images/cover.jpg);
+}
+
+.cover-bg:hover {
+    box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.3) inset;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .cover-bg {
+        margin: 0 auto;
+        width: 100%;
+        height: 216px;
+        margin-top: 64px;
+        box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.3) inset;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .cover-bg {
+        margin: 0 auto;
+        width: 100%;
+        height: 272px;
+        margin-top: 48px;
+        box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.3) inset;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover-bg {
+        margin: 0 auto;
+        width: 100%;
+        height: 272px;
+        margin-top: 48px;
+        box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.3) inset;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover-bg {
+        margin: 0 auto;
+        width: 928px;
+        box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.3) inset;
+    }
+}

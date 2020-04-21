@@ -1,0 +1,33 @@
+@import url(../../blocks/places/place/place.css);
+
+.places {
+    width: 984px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .places {
+        margin-top: 64px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .places {
+        margin-top: 64px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .places {
+        margin-top: 86px;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        width: 928px;
+    }
+}

@@ -1,0 +1,23 @@
+.intro__leftbar {
+    width: 683px;
+    margin-right: 18px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .intro__leftbar {
+        margin: 0 auto;
+        width: 100%;
+        
+
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .intro__leftbar {
+        margin: 0 auto;
+        width: 100%;
+        
+
+    }
+}

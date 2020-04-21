@@ -1,0 +1,50 @@
+.comment__quote {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0px;
+    margin-top: 42px;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .comment__quote {
+        width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 auto;
+        margin-top: 24px;
+        order: 3;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .comment__quote {
+        width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 auto;
+        margin-top: 24px;
+        order: 3;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .comment__quote {
+        width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 auto;
+        margin-top: 24px;
+        color: #FFFFFF;
+        order: 3;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .comment__quote {
+        width: 296px;
+    }
+}

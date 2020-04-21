@@ -1,0 +1,25 @@
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .intro__bottombar {
+        margin: 0 auto;
+        margin-top: 32px;
+        width: 90%;
+
+    }
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .intro__bottombar {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .intro__bottombar {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+}
