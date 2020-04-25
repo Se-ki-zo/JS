@@ -1,0 +1,26 @@
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.the_calculator {
+    width: 320px;
+    margin-top: 150px;
+}
+
+.the_calculator__buttons {
+    display: flex;
+}
+
+.the_calculator__actions {
+    width: 80px;
+}
