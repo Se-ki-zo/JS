@@ -8,6 +8,8 @@ Help Bob — to check his answers, he needs a program that among the given numbe
 
 ! Keep in mind that your task is to help Bob solve a real IQ test, which means indexes of the elements start from 1 (not 0)
 
+https://www.codewars.com/kata/552c028c030765286c00007d
+
 */
 
 function iqTest(numbers) {

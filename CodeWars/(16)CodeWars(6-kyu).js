@@ -8,6 +8,8 @@ Implement a function likes :: [String] -> String, which must take in input array
 
 It must return the display text as shown in the examples.
 
+https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+
 */
 
 function likes(names) {

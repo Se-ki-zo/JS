@@ -6,6 +6,8 @@ If a name has exactly 4 letters in it, you can be sure that it has to be a frien
 
 Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 
+https://www.codewars.com/kata/55b42574ff091733d900002f
+
 */
 
 function friend(arr) {

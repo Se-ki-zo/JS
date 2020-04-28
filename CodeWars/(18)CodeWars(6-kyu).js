@@ -8,6 +8,8 @@ Given n, take the sum of the digits of n. If that value has more than one digit,
 
 This is only applicable to the natural numbers.
 
+https://www.codewars.com/kata/541c8630095125aba6000c00
+
 */
 
 digital_root = (num) => {
