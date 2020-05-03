@@ -18,33 +18,39 @@ For example:
 
 //ERR!
 
-function persistence(num) {
-
-    let resNum = num;
+function persistence(number) {
+    let num = String(number).split('');
+    let sum = 1;
     let count = 0;
-    let res = 1;
-    let arr = (String(num).split(''));
 
-    function loop(arrNum) { // функция для умножения
+    if (number < 10) {
+        return count;
+    }
+
+    for (let i = 0; i < num.length; i++) {
+        sum *= num[i];
+    }
+
+    console.log(sum);
+
+    count += 1;
+
+    while (sum > 9) {
         count += 1;
-        for (let i = 0; i < arrNum.length; i++) {
-            arrNum[i] = parseInt(arrNum[i]);
-            res *= arrNum[i];
+        let arr = String(sum).split('');
+        console.log(arr)
+        sum = 1;
+
+        for (let i = 0; i < arr.length; i++) {
+            sum *= arr[i];
         }
-        return res;
     }
 
-    if (resNum > 10) {
-        console.log(loop(arr));
-    }
-
-
-    console.log(res);
-    console.log(arr);
-    console.log(count);
+    return count;
 }
 
-(persistence(39)); // 3
-//(persistence(4)); // 0
-//(persistence(25)); // 2
-//(persistence(999)); // 4
+persistence(39); // 3
+//persistence(4); // 0
+//persistence(25); // 2
+//persistence(999); // 4
+//persistence(10); // 1
