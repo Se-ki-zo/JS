@@ -19,14 +19,15 @@
                 <div class="display_nums">
                     <p id="displayFirstNum" class="display-section_item"></p>
                     <p id="displayAction" class="display-section_item"></p>
+                </div>
+
+                <div class="display_nums">
                     <p id="displaySecondNum" class="display-section_item"></p>
                 </div>
 
                 <div class="display_eq">
-                    <p id="" class="display-section_item"></p>
                     <p id="displayEq" class="display-section_item"></p>
-
-                </div>    
+                </div>
             </div>
 
 
@@ -60,29 +61,29 @@
                     <button onclick="push('9')" class="btn btn_num">
                         <p class="num">9</p>
                     </button>
-                    <button onclick="actionPlusMinus()" class="btn btn_num">
+                    <button onclick="action('+/-')" class="btn btn_num">
                         <p class="num">+/-</p>
                     </button>
                     <button onclick="push('0')" class="btn btn_num">
                         <p class="num">0</p>
                     </button>
-                    <button onclick="actionComma()" class="btn btn_num">
+                    <button onclick="action(',')" class="btn btn_num">
                         <p class="num">,</p>
                     </button>
                 </div>
 
 
                 <div class="the_calculator__actions">
-                    <button onclick="actionPlus()" class="btn btn_activity">
+                    <button onclick="action('+')" class="btn btn_activity">
                         <p class="num_activity">+</p>
                     </button>
-                    <button onclick="actionMinus()" class="btn btn_activity">
+                    <button onclick="action('-')" class="btn btn_activity">
                         <p class="num_activity">-</p>
                     </button>
-                    <button onclick="actionMulti()" class="btn btn_activity">
+                    <button onclick="action('x')" class="btn btn_activity">
                         <p class="num_activity">x</p>
                     </button>
-                    <button onclick="actionDiv()" class="btn btn_activity">
+                    <button onclick="action('/')" class="btn btn_activity">
                         <p class="num_activity">÷</p>
                     </button>
                 </div>
@@ -90,7 +91,7 @@
 
                 <div class="the_calculator__equality">
 
-                    <button onclick="actionEq()" class="btn btn_equality">
+                    <button onclick="sum()" class="btn btn_equality">
                         <p class="num_activity">=</p>
                     </button>
 

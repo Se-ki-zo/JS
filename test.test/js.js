@@ -1,2 +1,2 @@
-const divTwo = document.getElementsByClassName('twotwo');
-divTwo.innerHTML = 'lala';
+const a = document.querySelector('.la');
+console.log(a.innerHTML);

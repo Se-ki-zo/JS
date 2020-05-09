@@ -46,7 +46,8 @@
     margin: 0px;
     margin-left: 10px;
     color: black;
-    font-size: 50px;
+    text-align: end;
+    font-size: 30px;
 }
 
 .the_calculator__equality {
@@ -80,7 +81,7 @@
     color: #006fd0;
     background: #d8d7d7;
     width: 328px;
-    min-height: 100px;
+    min-height: 120px;
     margin-left: 2px;
     margin-bottom: 4px;
     border-radius: 1px;
@@ -101,10 +102,12 @@
 .btn_equality {
     width: 334px;
     background-color: #868686;
+    cursor: pointer;
 }
 
 .btn_activity {
     background-color: #868686;
+    cursor: pointer;
 }
 
 .num_activity {
@@ -117,4 +120,5 @@
 
 .btn_num {
     background-color: #b9b2b2;
+    cursor: pointer;
 }
