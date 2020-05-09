@@ -28,7 +28,7 @@
 
 .btn {
     width: 80px;
-    height: 50px;
+    height: 55px;
 
     border-radius: 1px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
@@ -55,14 +55,14 @@
     margin-top: 3px;
 }
 
-.the_calculator__equality:hover {
+/* .the_calculator__equality:hover {
     transform: scale(1.01);
-}
+} */
 
-.the_calculator__equality:active {
+/* .the_calculator__equality:active {
     transform: scale(1);
     box-shadow: 1px 1px 0px 2px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .the_calculator__item:hover {
     transform: scale(1.05);
@@ -100,7 +100,7 @@
 }
 
 .btn_equality {
-    width: 334px;
+    width: 248px;
     background-color: #868686;
     cursor: pointer;
 }
@@ -120,5 +120,10 @@
 
 .btn_num {
     background-color: #b9b2b2;
+    cursor: pointer;
+}
+
+.btn_clear {
+    background-color: #aa7070;
     cursor: pointer;
 }
