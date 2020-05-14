@@ -222,3 +222,18 @@ function lowClear() {
     displayEq.innerHTML = ''; //+
     return displayFirstNum.innerHTML = firstNum; //+
 }
+
+function backSpace() {
+    if (symbol == null && !result) {
+        firstNum = firstNum.split('');
+        firstNum.pop();
+        firstNum = firstNum.join('');
+        displayFirstNum.innerHTML = firstNum;
+
+    } else if (symbol != null && !result) {
+        secondNum = secondNum.split('');
+        secondNum.pop();
+        secondNum = secondNum.join('');
+        displaySecondNum.innerHTML = secondNum;
+    }
+}

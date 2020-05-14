@@ -34,6 +34,7 @@
             <div class="the_calculator__buttons">
 
                 <div class="the_calculator__numbers">
+
                     <button onclick="push('1')" class="btn btn_num">
                         <p class="num">1</p>
                     </button>
@@ -74,6 +75,14 @@
 
 
                 <div class="the_calculator__actions">
+                    <div class="the_calculator__clear">
+                        <button onclick="fullClear()" class="btn btn_clear">
+                            <p class="num_activity">C</p>
+                        </button>
+                        <button onclick="backSpace()" class="btn btn_backspace">
+                            <p class="num_backspace">&larr;</p>
+                        </button>
+                    </div>
                     <button onclick="action('+')" class="btn btn_activity">
                         <p class="num_activity">+</p>
                     </button>
@@ -83,9 +92,7 @@
                     <button onclick="action('x')" class="btn btn_activity">
                         <p class="num_activity">x</p>
                     </button>
-                    <button onclick="action('/')" class="btn btn_activity">
-                        <p class="num_activity">÷</p>
-                    </button>
+
                 </div>
 
 
@@ -94,8 +101,8 @@
                     <button onclick="sum()" class="btn btn_equality">
                         <p class="num_activity">=</p>
                     </button>
-                    <button onclick="fullClear()" class="btn btn_clear">
-                        <p class="num_activity">C</p>
+                    <button onclick="action('/')" class="btn btn_activity">
+                        <p class="num_activity">÷</p>
                     </button>
 
 
