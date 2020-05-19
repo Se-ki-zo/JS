@@ -11,6 +11,15 @@ const displayAction = document.getElementById('displayAction');
 const displayEq = document.getElementById('displayEq');
 const maxNumLength = 10;
 
+/*
+document.addEventListener('keydown', function (event) { // ERR
+    if (event.keyCode <= 57 && event.keyCode >= 48) {
+        firstNum += event.key;
+        displayFirstNum.innerHTML = firstNum;
+    }
+});
+*/
+
 
 function push(num) {
 
@@ -20,7 +29,7 @@ function push(num) {
         return displayFirstNum.innerHTML = firstNum;
     }
 
-    if (firstNum == '0' && num == '0' && symbol == null) { // Запрет на нули // ERR -> 0 + num -> num +
+    if (firstNum == '0' && num == '0' && symbol == null) { // Запрет на нули 
         firstNum = '0';
         return displayFirstNum.innerHTML = firstNum;
     } else if (firstNum == '0' && num != '0' && symbol == null) {
